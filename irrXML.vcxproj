@@ -121,37 +121,6 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\proj\C3\third-party\irrxml\CMakeLists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/C3/third-party/irrxml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/proj/C3/third-party/irrxml -BD:/proj/C3/third-party/irrxml --check-stamp-file D:/proj/C3/third-party/irrxml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeCCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeSystem.cmake;D:\proj\C3\third-party\irrxml\cmake\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\C3\third-party\irrxml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/C3/third-party/irrxml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/proj/C3/third-party/irrxml -BD:/proj/C3/third-party/irrxml --check-stamp-file D:/proj/C3/third-party/irrxml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeCCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;D:\proj\C3\third-party\irrxml\CMakeFiles\3.22.1\CMakeSystem.cmake;D:\proj\C3\third-party\irrxml\cmake\Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\C3\third-party\irrxml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="D:\proj\C3\third-party\irrxml\src\CXMLReaderImpl.h" />
     <ClInclude Include="D:\proj\C3\third-party\irrxml\src\fast_atof.h" />
     <ClInclude Include="D:\proj\C3\third-party\irrxml\src\heapsort.h" />
@@ -160,14 +129,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrTypes.h" />
     <ClCompile Include="D:\proj\C3\third-party\irrxml\src\irrXML.cpp" />
     <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrXML.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="D:\proj\C3\third-party\irrxml\ZERO_CHECK.vcxproj">
-      <Project>{D271980A-0ED7-3ECC-98C0-3210184A9120}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

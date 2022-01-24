@@ -29,9 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\proj\C3\third-party\irrxml\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Header Files">
       <UniqueIdentifier>{D5B0E8F3-9C0C-36AD-968F-660DA54E6FE3}</UniqueIdentifier>
     </Filter>
