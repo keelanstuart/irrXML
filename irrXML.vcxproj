@@ -121,14 +121,14 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\CXMLReaderImpl.h" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\fast_atof.h" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\heapsort.h" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrArray.h" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrString.h" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrTypes.h" />
-    <ClCompile Include="D:\proj\C3\third-party\irrxml\src\irrXML.cpp" />
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrXML.h" />
+    <ClInclude Include="src\CXMLReaderImpl.h" />
+    <ClInclude Include="src\fast_atof.h" />
+    <ClInclude Include="src\heapsort.h" />
+    <ClInclude Include="src\irrArray.h" />
+    <ClInclude Include="src\irrString.h" />
+    <ClInclude Include="src\irrTypes.h" />
+    <ClCompile Include="src\irrXML.cpp" />
+    <ClInclude Include="src\irrXML.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
