@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\proj\C3\third-party\irrxml\src\irrXML.cpp">
+    <ClCompile Include="$(ProjectDir)src\irrXML.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\CXMLReaderImpl.h">
+    <ClInclude Include="$(ProjectDir)src\CXMLReaderImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\fast_atof.h">
+    <ClInclude Include="$(ProjectDir)src\fast_atof.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\heapsort.h">
+    <ClInclude Include="$(ProjectDir)src\heapsort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrArray.h">
+    <ClInclude Include="$(ProjectDir)src\irrArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrString.h">
+    <ClInclude Include="$(ProjectDir)src\irrString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrTypes.h">
+    <ClInclude Include="$(ProjectDir)src\irrTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\C3\third-party\irrxml\src\irrXML.h">
+    <ClInclude Include="$(ProjectDir)src\irrXML.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
